@@ -20,7 +20,6 @@ a{
 
 .main-text-header{
     font-size: 48px;
-    font-weight: bolder;
     color: #F9FAF8;
 }
 
@@ -96,11 +95,6 @@ ul{
     padding-left: 30px;
 }
 
-
-/*############# THIS IS THE HEADER #############*/
-
-
-
 /*$$$$$$$$$$$$$$ THIS IS THE FIRST PART OF THE BODY $$$$$$$$$$$$$*/
 
 .body-one{
@@ -140,8 +134,6 @@ ul{
     width: 180px;
 }
 
-/*$$$$$$$$$$$$$$ THIS IS THE FIRST PART OF THE BODY $$$$$$$$$$$$$*/
-
 /*@@@@@@@@@@@@@@@ THIS IS THE SECOND PART OF THE BODY @@@@@@@@@@*/
 
 .body-two{
@@ -172,8 +164,6 @@ ul{
     margin-top: 0;
 }
 
-/*@@@@@@@@@@@@@@@ THIS IS THE SECOND PART OF THE BODY @@@@@@@@@@*/
-
 /*&&&&&&&&&&&&&&& THIS IS THE THIRD PART OF THE BODY &&&&&&&&&&&&*/
 
 #button-body-three, .main-body-three{
@@ -194,6 +184,7 @@ ul{
     justify-content: space-evenly;
     border-radius: 4px;
     align-items: center;
+    border-radius: 6px;
 }
 
 .heading-text-body-three{
@@ -216,8 +207,6 @@ ul{
     height: 30px;
 }
 
-/*&&&&&&&&&&&&&&& THIS IS THE THIRD PART OF THE BODY &&&&&&&&&&&&*/
-
 /*^^^^^^^^^^^^^^^^^ THIS IS THE FOOTER ^^^^^^^^^^^^^^^^^*/
 
 .footer{
@@ -226,8 +215,5 @@ ul{
     justify-content: center;
     align-items: center;
     padding: 10px;
-}
-
-.footer-text{
-    color: #F9FAF8
+    color: #F9FAF8;
 }
