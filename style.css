@@ -1,0 +1,92 @@
+/*############# THIS IS THE HEADER #############*/
+
+button{
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+body{
+    margin:0;
+}
+
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.main-text-header{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+#header-logo{
+    font-size: 24px;
+    color: F9FAF8;
+    
+}
+
+.sub-text-header, .top-header{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.image-placeholder{
+    color:#F9FAF8;
+    background-color: lightslategray;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.header{
+    background-color: #1F2937;
+}
+
+.top-header, .mid-header, ul{
+    display: flex;
+}
+
+.top-header, .mid-header{
+    justify-content: center;
+}
+
+.header-text{
+    padding: 30px;
+    width: 300px;
+}
+
+.top-header{
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    gap: 12px;
+    justify-content: flex-end;
+}
+
+.mid-header{
+    padding: 50px;
+}
+
+/* Did this to make the containers the same size*/
+.image-placeholder, ul{
+    box-sizing: border-box;
+    width: 500px;
+}
+
+#header-logo, .header-text{
+    box-sizing: border-box;
+    width: 360px;
+}
+/* Did this to make the containers the same size*/
+
+#header-logo{
+    padding-left: 30px;
+}
+
+
+/*############# THIS IS THE HEADER #############*/
