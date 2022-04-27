@@ -3,6 +3,8 @@
 button{
     background-color: #3882F6;
     color: #E5E7EB;
+    padding: 5px 20px;
+    border-radius: 6px;
 }
 
 body{
@@ -31,6 +33,10 @@ a{
 .sub-text-header, .top-header{
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.sub-text-header{
+    margin-bottom: 8px;
 }
 
 .image-placeholder{
@@ -164,4 +170,64 @@ ul{
     font-weight: bolder;
     font-size: 24px;
     margin-top: 0;
+}
+
+/*@@@@@@@@@@@@@@@ THIS IS THE SECOND PART OF THE BODY @@@@@@@@@@*/
+
+/*&&&&&&&&&&&&&&& THIS IS THE THIRD PART OF THE BODY &&&&&&&&&&&&*/
+
+#button-body-three, .main-body-three{
+    background-color: #3882F6;
+}
+
+.body-three{
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-body-three{
+    display: flex;
+    padding: 35px 40px;
+    width: 800px;
+    justify-content: space-evenly;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.heading-text-body-three{
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: 3px;
+}
+
+.heading-text-body-three, .subtext-text-body-three{
+    color: #E5E7EB
+}
+
+#button-body-three{
+    font-weight: bold;
+    border-radius: 4px;
+    border: 1px #E5E7EB solid ;
+    max-height: min-content;
+    padding: 0px 25px;
+    box-sizing: border-box;
+    height: 30px;
+}
+
+/*&&&&&&&&&&&&&&& THIS IS THE THIRD PART OF THE BODY &&&&&&&&&&&&*/
+
+/*^^^^^^^^^^^^^^^^^ THIS IS THE FOOTER ^^^^^^^^^^^^^^^^^*/
+
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.footer-text{
+    color: #F9FAF8
 }
